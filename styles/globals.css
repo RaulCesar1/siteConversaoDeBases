@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#btn-converter {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+  }
+  #btn-converter:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+  }
+  #btn-converter:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  overflow: hidden;
+}
